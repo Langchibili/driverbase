@@ -27,6 +27,7 @@ class List extends Component {
       //meta.pagination
       if(items !== undefined){
         if('data' in items){
+          console.log('this is a tester log', items)
           return items.data;
         }
         else if(itemsName === 'users'){
